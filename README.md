@@ -1,28 +1,30 @@
-# Creating a blockchain with Javascript
- criando um blockchain com javascript
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="https://i.imgur.com/VELRxXl.png" alt="Project logo"></a>
+</p>
 
- pirmeiro crie uma classe que recebera um contrutor com algumas propriedades opcionais 
+
+<h1 align="center">Creating a blockchain with Javascript</h1>
+
+
+ Criando um blockchain com javascript
+
+Nosso bloco recebera um contrutor com algumas propriedades opcionais 
  * index : vai dizer para nos onde ficara o bloco ficara na corrente da blockchain
  * timestamp : nos dira quando o bloco foi criado
  * data : dados e isso pode incluir qualquer tipo de data que queira associar a esse bloco caso de recorrência, você pode querer armazenar os detalhes da transação aqui, como quanto dinheiro foi transferido e quem foi o remetente e o destinatário.
  * previousHash : hash anterior é uma string que contém o hash do bloco anterior a este agora
 
-passo a passo
+---
 
-apos criar a peimeira classe de blocos que recebera o index, timestamp, data, previousHas 
-baixar um pacote pelo terminal 
-<h3>npm install --save crypto-js</h3> 
-ou npm i crypto-js
-link para documentação npm 
-https://www.npmjs.com/package/crypto-js
-
-agora podemos importar intens do node modules
+## Recursos
 
 
-teste para o primeiro bloco
+* Algoritmo de prova de trabalho simples
 
-no terminal digite node main.js
+* Verifique o blockchain (para evitar adulteração)
 
-IMAGEM DE COMO IRA APARECER NO TERMINAL
+* Gerar carteira (chave privada / pública)
 
-///faça uma criptomoeda simples para que o bloco possa conter várias transações & adicionar recompensas para mineiros
+* Assinar transações
+
